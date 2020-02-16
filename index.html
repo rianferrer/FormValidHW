@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="styling.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <br><br><br><center>
+    <h1>EVENT FORM</h1>
+    <hr>
+    <div><br><br>
+    <form>
+        <br>
+        <label>Event Type: <select>
+            <option>Choose one</option>
+        </select></label><br><br>
+
+        <label>Event Title: <input type="text" required></label><br><br>
+
+        <label>Event Dates: <input type="date" required> to <input type="date" required></label><br><br>
+
+        <label>Posting Date: <input type="date" required></label><br><br><br>
+
+        <label><input type="checkbox"> Is Registration Required?</label><br><br>
+        <label><input type="checkbox"> Is this even associated with Family Progrmas?</label><br><br>
+        <label><input type="checkbox"> Upon Registration Completion, Are Users to Receive an Auto Generated Email?</label><br><br>
+        <label><input type="checkbox"> Is There a Point of Contact?</label><br><br>
+        <label><input type="checkbox"> Is There a Hosting Command Point of Contact?</label><br><br><br><br>
+
+        <input type="submit" value="Save" onclick="acceptData()">&nbsp;&nbsp;
+        <input type="submit" value="Cancel">
+
+    </form>
+    </div>
+</html>
